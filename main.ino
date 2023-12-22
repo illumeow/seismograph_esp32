@@ -6,13 +6,13 @@
 #include <HTTPClient.h>
 #include "ArduinoJson.h"
 
-#define BUZZ_PIN 15  // 15
+#define BUZZ_PIN 15
 #define LIMIT 50
 
-char ssid[] = "illumeow"; 
-char password[] = "20060223"; 
-String url1 = "https://opendata.cwa.gov.tw/api/v1/rest/datastore/E-A0016-001?Authorization=CWA-136EFF20-42D3-4409-B9E3-D346B63144BD&limit=1&format=JSON&CountyName=%E8%87%BA%E5%8C%97%E5%B8%82";
-String url2 = "https://opendata.cwa.gov.tw/api/v1/rest/datastore/E-A0015-001?Authorization=CWA-136EFF20-42D3-4409-B9E3-D346B63144BD&limit=1&format=JSON&CountyName=%E8%87%BA%E5%8C%97%E5%B8%82";
+char ssid[] = "-";  // wifi ssid
+char password[] = "-";  // wifi password
+String url1 = -";  // CWA api
+String url2 = -";  // CWA api
 HTTPClient http;
 
 Adafruit_MPU6050 mpu;
