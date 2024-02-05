@@ -11,8 +11,8 @@
 
 char ssid[] = "-";  // wifi ssid
 char password[] = "-";  // wifi password
-String url1 = -";  // CWA api
-String url2 = -";  // CWA api
+String url1 = "-";  // CWA api
+String url2 = "-";  // CWA api
 HTTPClient http;
 
 Adafruit_MPU6050 mpu;
